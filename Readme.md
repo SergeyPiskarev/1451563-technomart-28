@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Сергей Пискарев](https://up.htmlacademy.ru/htmlcss/28/user/1451563).
-* Наставник: [Анастасия Ничипорчук] (https://htmlacademy.ru/profile/id612797).
+* Наставник: [Анастасия Ничипорчук](https://htmlacademy.ru/profile/id612797).
 
 ---
 
