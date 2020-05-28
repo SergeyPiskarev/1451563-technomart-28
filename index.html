@@ -3,93 +3,92 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400;0,700;1,400&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
       <div class="head">
           <div class="logo">
-            <a href="#"><img src="img/logo.png" width="220" height="47" alt="ТЕХНОМАРТ"></a>
+            <a class="logo-link" href="#"><img src="img/logo.png" width="220" height="47" alt="ТЕХНОМАРТ"></a>
           </div>
          
-          <input maxlength="#" size="#" value="Поиск:">
+          <input class="search" maxlength="#" size="#" value="Поиск:">
 
-          <a href="#">Закладки</a>
-          <a href="#">Корзина</a>
-          <a href="#">Оформить заказ</a>          
+          <a class="bookmarks" href="#">Закладки</a>
+          <a class="cart" href="#">Корзина</a>
+          <a class="buy" href="#">Оформить заказ</a>          
       </div>
 
       <div class="contact">
-          <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
-          
-              <div>
-                <a href="tel:+78125550555">+7 (812) 555-05-55</a>
-              </div>
-              
-                 <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+          <p class="contacts-description">Интернет-магазин строительных материалов и инструментов для ремонта</p>
+
+             <a class="contacts-phone" href="tel:+78125550555">+7 (812) 555-05-55</a>
+
+             <p class="contacts-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
                  
-              <ul>
-                <li><a href="#">Войти</a></li>          
-                <li><a href="#">Регистрация</a></li>
+              <ul class="contacts-btns">
+                <li class="contacts-item"><a class="contacts-link" href="#">Войти</a></li>          
+                <li class="contacts-item"><a class="contacts-link" href="#">Регистрация</a></li>
               </ul>
       </div>
-
        
-          <nav>
-              <ul>
-                  <li class="#"><a href="#">Главная</a></li>
-                  <li class="#"><a href="#">Компания</a></li>
-                  <li class="#"><a href="catalog.html">Каталог</a></li>
-                  <li class="#"><a href="#">Новости</a></li>
-                  <li class="#"><a href="#">Спецпредложения</a></li>
-                  <li class="#"><a href="#">Доставка</a></li>
-                  <li class="#"><a href="#">Контакты</a></li>
+          <nav class="nav">
+              <ul class="menu">
+                  <li class="menu-item"><a class="menu-link" href="#">Главная</a></li>
+                  <li class="menu-item"><a class="menu-link" href="#">Компания</a></li>
+                  <li class="menu-item"><a class="menu-link" href="catalog.html">Каталог</a></li>
+                  <li class="menu-item"><a class="menu-link" href="#">Новости</a></li>
+                  <li class="menu-item"><a class="menu-link" href="#">Спецпредложения</a></li>
+                  <li class="menu-item"><a class="menu-link" href="#">Доставка</a></li>
+                  <li class="menu-item"><a class="menu-link" href="#">Контакты</a></li>
               </ul>
-          </nav>
-      
+          </nav>      
     </header>
     
     <main>
       <h1 class="visually-hidden">Главная страница</h1>
-      <section>
+      <section class="product">
         <h2 class="visually-hidden">товар</h2>
         
-        <div>
+        <div class="Materials">
           <h3>Материалы</h3>
-          <img src="#" alt="">
-        <a href="#">на любой вкус</a>
+          <img src="img/icon-1.svg" alt="краски">
+        <a class="text-link" href="#">на любой вкус</a>
         </div>
-        <div>
+        <div class="Tool">
           <h3>Инструмент</h3>
-          <img src="#" alt="">
-        <a href="#">НА ВСЕ СЛУЧАИ</a>
+          <img src="img/icon-2.svg" alt="инструмент">
+        <a class="text-link" href="#">НА ВСЕ СЛУЧАИ</a>
         </div>
-        <div>
+        <div class="Equipment">
           <h3>Техника</h3>
-          <img src="#" alt="">
-        <a href="#">для стройки</a>
+          <img src="img/icon-3.svg" alt="техника">
+        <a class="text-link" href="#">для стройки</a>
               </div>
-        <div>
+        <div class="Discounts">
           <h3>Скидки 50%</h3>
-          <img src="#" alt="">
-        <a href="#">На 350 ТОВАРОВ</a>
+          <img src="img/icon-4.svg" alt="скидки">
+        <a class="text-link" href="#">На 350 ТОВАРОВ</a>
               </div>
-        <div>
+        <div class="Delivery">
           <h3>Доставка</h3>
-          <img src="#" alt="">
-        <a href="#">Бесплатно</a>
+          <img src="img/icon-5.svg" alt="доставка">
+        <a class="text-link" href="#">Бесплатно</a>
               </div>
-        <div>
-          <div>
+        <div class="container">
+          <div class="hammer-drill">
             <h3>Перфораторы</h3>
             <p>Настоящие мужские игрушки</p>
-            <img src="#" alt="">
-          <a href="#">Открыть каталог</a>          
+            <img src="#" alt="Перфораторы">
+          <a class="text-link" href="#">Открыть каталог</a>          
           </div>
-          <div>
+          <div class="drill">
             <h3>Дрели</h3>
             <p>Соседям на радость!</p>
-            <img src="#" alt="">
-          <a href="#">Открыть каталог</a>
+            <img src="#" alt="Дрели">
+          <a class="text-link" href="#">Открыть каталог</a>
                   </div>
         </div>
       </section>
@@ -237,64 +236,59 @@
 
 
     <footer> 
-      <div>
-        <a href="#"><img src="img/logo2.png" width="220" height="68" alt="ТЕХНОМАРТ"></a>
+      <div class="footer-logo">
+        <a class="logo-link" href="#"><img src="img/logo2.png" width="220" height="68" alt="ТЕХНОМАРТ"></a>
       </div>
 
-      <div>
-        <p>
-          г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
-          <a href="tel:+78125550555">+7(812)555-05-55</a>
+      <div class="contacts-footer">
+        <p class="contacts-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+          <a class="contacts-phone" href="tel:+78125550555">+7(812)555-05-55</a>
         </p>
       </div>
-
        
-        <nav>
-         <ul>
-            <li class="#"><a href="#">Компания</a></li>
-            <li class="#"><a href="#">Новости</a></li>
-            <li class="#"><a href="catalog.html">Каталог</a></li>
-            <li class="#"><a href="#">Доставка</a></li>
-            <li class="#"><a href="#">Контакты</a></li>
+        <nav class="footer-nav">
+         <ul class="footer-menu">
+            <li class="menu-item"><a class="menu-link" href="#">Компания</a></li>
+            <li class="menu-item"><a class="menu-link" href="#">Новости</a></li>
+            <li class="menu-item"><a class="menu-link" href="catalog.html">Каталог</a></li>
+            <li class="menu-item"><a class="menu-link" href="#">Доставка</a></li>
+            <li class="menu-item"><a class="menu-link" href="#">Контакты</a></li>
+          </ul>
+        </nav>
+             
+        <nav class="nav-item">    
+          <ul class="footer-secondary-menu">
+            <li class="menu-item"><a class="menu-link" href="#">Материалы</a></li>
+            <li class="menu-item"><a class="menu-link" href="#">Техника</a></li>
+            <li class="menu-item"><a class="menu-link" href="#">Инструмент</a></li>
+            <li class="menu-item"><a class="menu-link" href="#">Спецпредложения</a></li>
           </ul>
         </nav>
       
-
-       
-        <nav>    
-          <ul>
-            <li class="#"><a href="#">Материалы</a></li>
-            <li class="#"><a href="#">Техника</a></li>
-            <li class="#"><a href="#">Инструмент</a></li>
-            <li class="#"><a href="#">Спецпредложения</a></li>
-          </ul>
-        </nav>
-      
-      <div>
+      <div class="company">
         <p> © 2010–2019 Компания «Техномарт»</p>
         <p> Все права защищены</p>
       </div>
-
       
-        <ul>
-          <li>
-            <a href="#">Вконтакте</a>
+        <ul class="footer-social">
+          <li class="social-pages">
+            <a class="pages" href="#">Вконтакте</a>
           </li>
-          <li>
-            <a href="#">Фейсбук</a>
+          <li class="social-pages">
+            <a class="pages" href="#">Фейсбук</a>
           </li>
-          <li>
-            <a href="#">Инстаграм</a>
+          <li class="social-pages">
+            <a class="pages" href="#">Инстаграм</a>
           </li>
         </ul>
      
-      <div>
-        <p>Обратная связь:
-          <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
+      <div class="communication">
+        <p class="Feedback">Обратная связь:
+          <a class="button" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
       </div>
-      <div>    
-        <p>Разработано:
-        <a href="https://htmlacademy.ru/intensive/htmlcss">https://htmlacademy.ru</a></p>
+      <div class="developer">    
+        <p class="Designed">Разработано -:
+        <a class="button" href="https://htmlacademy.ru/intensive/htmlcss">https://htmlacademy.ru</a></p>
       </div>
     </footer>
 
