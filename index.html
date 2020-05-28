@@ -49,9 +49,9 @@
     </header>
     
     <main>
-      <h1>Главная страница</h1>
+      <h1 class="visually-hidden">Главная страница</h1>
       <section>
-        <h2>товар</h2>
+        <h2 class="visually-hidden">товар</h2>
         
         <div>
           <h3>Материалы</h3>
@@ -207,7 +207,7 @@
 
 
       <section>
-      <h2>контакт</h2>
+      <h2 class="visually-hidden">контакт</h2>
         <section>
           <h2>КОМПАНИЯ &#171;ТЕХНОМАРТ&#187;</h2>
         
@@ -304,8 +304,29 @@
 
 
 <section>
-  <h2>Личный кабинет</h2>
-  <p>Введите пожалуйста свой логин и пароль</p>
-  <!-- Здесь будет форма логина -->
+  <h2 class="visually-hidden">Напишите нам</h2>
+  <form action="https://echo.htmlacademy.ru" method="post">
+    <p>
+      <label for="appointment-name">Ваше имя:</label>
+      <input id="appointment-name" type="text" name="name" placeholder="Имя Фамилия">
+    </p>
+    <p>
+      <label for="appointment-email">ваш e-mail:</label>
+      <input id="appointment-email" type="email" name="email" placeholder="email@example.com">
+    </p>
+    <p>
+      <label for="appointment-text">Текст письма:</label>
+      <input id="appointment-text" type="text" name="text" placeholder="В свободной форме">
+    </p>
+    <div>
+      <a href="#">ОФОРМИТЬ ЗАКАЗ</a>
+    </div>
+  </form>
+  <button type="button">Закрыть</button>
+</section>
+
+<section>
+  <h2 class="visually-hidden">Как до нас добраться</h2>
+  <!-- Здесь будет карта -->
   <button type="button">Закрыть</button>
 </section>

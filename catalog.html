@@ -59,7 +59,7 @@
     </header>
 
     <main>
-        <h1>КАТАЛОГ</h1>
+        <h1 class="visually-hidden">КАТАЛОГ</h1>
         <section>
             <ul>
                 <li><a href="#">КАТАЛОГ</a></li>
@@ -67,7 +67,7 @@
                 <li><a href="#">ПЕРФОРАТОРЫ</a></li>
             </ul>
 
-        <section>
+            <section>
             <h2>Фильтр</h2>
             <form action="https://echo.htmlacademy.ru" method="get">
                 <fieldset>
@@ -84,8 +84,8 @@
                                 <label for="filter-BOSCH">BOSCH</label>
                             </li>
                             <li>
-                                <input type="checkbox" name="ИНТЕРСКОЛ" id="filter-ИНТЕРСКОЛ">
-                                <label for="filter-ИНТЕРСКОЛ">ИНТЕРСКОЛ</label>
+                                <input type="checkbox" name="INTERSKOL" id="filter-INTERSKOL">
+                                <label for="filter-INTERSKOL">ИНТЕРСКОЛ</label>
                             </li>
                             <li>
                                 <input type="checkbox" name="MAKITA" id="filter-MAKITA" checked>
@@ -117,7 +117,7 @@
                 <button type="submit">Показать</button>
             </form>
 
-        </section>
+            </section>
 
             <h2>ПЕРФОРАТОРЫ</h2>
 
@@ -331,9 +331,22 @@
               </div>
               <div>    
                 <p>Разработано:
-                <a href="https://up.htmlacademy.ru/htmlcss/28/project/technomart#technomart-3-5">https://htmlacademy.ru</a></p>
+                <a href="https://htmlacademy.ru/intensive/htmlcss">https://htmlacademy.ru</a></p>
               </div>
         </footer>
+
+        <section>
+            <h2 class="visually-hidden">Товар добавлен</h2>
+            <p>Товар добавлен в корзину!</p>
+            <img src="img/icon-mark.png" alt="Товар добавлен">
+            <div>
+                <a href="#">оформить заказ</a>
+                <a href="#">продолжить покупки</a>
+            </div>
+            <button type="button">Закрыть</button>
+          </section>
+
+
   
     </body>
   </html>
