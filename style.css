@@ -1,0 +1,291 @@
+body{
+    min-width:960px ;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cuprum', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color:#000000;
+    background-color: #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+max-width: 100%;
+height: auto;
+}
+
+/*header*/
+
+.main-header{
+    background-color: #F1F5F7;
+}
+.head{
+    background-color:#293449;
+}
+.head a,
+.nav a{
+    color:#FFFFFF;
+}
+
+.buy{
+    background-color:#63A63E;
+}
+.buy a:hover{
+    background-color: #5FBB2D;
+    opacity: 1;
+}
+.buy a:focus{
+    background-color:#63A63E;
+    opacity: 0.5;
+
+}
+
+.contacts-description{
+    font-style: italic;
+    color: #EE3643;
+}
+
+.contacts-phone{
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 30px;
+    color: #EE3643;
+}
+
+.contacts-adress{
+    color:#32425C;
+}
+
+.contacts-btns,
+.menu,
+.my{
+   list-style: none;
+}
+.contacts-btns a{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+.contacts-btns a:hover,
+.my a:hover{
+    color:#EE3643 ;
+}
+.contacts-btns a:focus,
+.my a:focus{
+    color: #C5C5C5;
+    opacity: 0.5;
+}
+
+.logged-user{
+    background-color: #FFFFFF;
+    font-size: 21px;
+    line-height: 21px;
+}
+
+.my a{
+    font-size: 16px;
+    line-height: 18px;
+    color: #32425C;
+    }
+ 
+
+/*menu navigation*/
+.nav{
+    background: #32425C;   
+}
+.nav a:hover{
+    background-color: #293449;
+}
+.nav a:focus{
+    background-color: #293449;
+    opacity: 0.5;
+}
+
+
+/*main*/
+
+.features h2,
+.contacts h2{
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.features p,
+.contacts p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+}
+.btn-red{
+    background-color: #EE3643;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.manufacturers-pic{
+    list-style: none;
+}
+
+
+/*main catalog*/
+.breadcrumbs-list,
+.price,
+.manufacturers-list,
+.power-list,
+.catalog-list {
+    list-style: none;
+}
+
+.page-title,
+.description{
+    background-color:#F2F6F8;
+}
+.page-title{
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.breadcrumbs{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.price,
+.manufacturers,
+.power{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 30px;
+    text-transform: uppercase;  
+}
+.manufacturers-list,
+.power-list{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+}
+.show{
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.catalog-list p {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+.catalog-list h3{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color:#000000;
+    text-transform: uppercase;
+}
+.old-price{
+    color: #A9A9A9;
+    text-decoration: line-through;
+    background-color: #FFFFFF;
+}
+.new-price{
+    width: 141px;
+    height: 38px;
+    background-color:#EE3643;
+    color: #FFFFFF;
+}
+.button{
+    font-size: 14px;
+    line-height: 18px;
+    width: 135px;	height: 38px; 
+    border: 3px solid #63A63E; 
+    border-radius: 2px;
+    background-color: #FFFFFF;
+}
+.btn-gren{
+    background-color: #63A63E;
+    box-shadow: inset 0px -3px 0px #367315;
+}
+.btn-gren :hover{
+    background-color:#5FBB2D;
+    opacity: 1;
+}
+.btn-gren :focus{
+    background: #518534;
+    opacity: 0.5;
+}
+
+
+
+
+
+.description h2{
+    font-size: 30px;
+    line-height: 30px;
+}
+.description p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+
+/*footer*/
+
+.main-footer{
+    background-color:#32425C;
+    color:#F1F5F7;
+    
+}
+.contacts-footer a{
+    color:#F1F5F7;
+}
+.contacts-adress{
+    color:#F1F5F7;
+}
+
+.footer-menu,
+.footer-secondary-menu,
+.footer-social {
+    list-style: none;    
+}
+.footer-menu a{
+    color: #F1F5F7;
+}
+.footer-secondary-menu a,
+.communication a,
+.developer a{
+    color: #FFD180;
+}
+.footer-social{
+    font-size: 16px;
+    line-height: 18px;
+    background-color:#293449;
+    color: #FFFFFF;
+}
+
+.footer-menu a:hover,
+.footer-secondary-menu a:hover,
+.communication a:hover,
+.developer a:hover{
+    text-decoration: underline;
+}
+
+.footer-menu a:focus,
+.footer-secondary-menu a:focus{
+    opacity: 0.5;
+}
+.communication a:focus,
+.developer a:focus{
+    color: #EE3643;
+}
+
+
