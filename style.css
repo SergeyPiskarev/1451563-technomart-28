@@ -2,7 +2,7 @@ body{
     min-width:960px ;
     margin: 0;
     padding: 0;
-    font-family: 'Cuprum', sans-serif;
+    font-family: 'Cuprum', Arial, sans-serif;
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;
@@ -116,7 +116,7 @@ height: auto;
 }
 .features p,
 .contacts p{
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans', Arial, sans-serif;
     font-size: 13px;
     line-height: 24px;
 }
@@ -150,7 +150,7 @@ height: auto;
 }
 
 .breadcrumbs{
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans', Arial, sans-serif;
     font-size: 13px;
     line-height: 18px;
     text-transform: uppercase;
@@ -159,7 +159,7 @@ height: auto;
 .price,
 .manufacturers,
 .power{
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans', Arial, sans-serif;
     font-weight: bold;
     font-size: 17px;
     line-height: 30px;
@@ -177,14 +177,14 @@ height: auto;
 }
 
 .catalog-list p {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans', Arial, sans-serif;
     font-weight: bold;
     font-size: 17px;
     line-height: 18px;
     text-transform: uppercase;
 }
 .catalog-list h3{
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans', Arial, sans-serif;
     font-weight: bold;
     font-size: 18px;
     line-height: 20px;
@@ -214,11 +214,11 @@ height: auto;
     background-color: #63A63E;
     box-shadow: inset 0px -3px 0px #367315;
 }
-.btn-gren :hover{
-    background-color:#5FBB2D;
+.btn-gren a:hover{
+    background-color:#5FBB2D;  
     opacity: 1;
 }
-.btn-gren :focus{
+.btn-gren a:focus{
     background: #518534;
     opacity: 0.5;
 }
@@ -232,7 +232,7 @@ height: auto;
     line-height: 30px;
 }
 .description p{
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans', Arial, sans-serif;
     font-size: 13px;
     line-height: 24px;
 }
