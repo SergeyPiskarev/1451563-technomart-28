@@ -1,3 +1,4 @@
+/* Global */
 body{
     min-width:960px ;
     margin: 0;
@@ -19,10 +20,28 @@ max-width: 100%;
 height: auto;
 }
 
+/*Grid*/
+.page{
+    height: 100%;
+}
+.page-body{
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+    align-content: start;
+}
+
+
+
 /*header*/
 
 .main-header{
     background-color: #F1F5F7;
+    width: 1200px;
+    min-height: 320px;
+
+    outline: 5px solid rgba(0, 255, 0, 0.3);
+    outline-offset: -5px;
 }
 .head{
     background-color:#293449;
@@ -31,7 +50,7 @@ height: auto;
 .nav a{
     color:#FFFFFF;
 }
-
+/* кнопка оформит заказ*/
 .buy{
     background-color:#63A63E;
 }
@@ -107,6 +126,15 @@ height: auto;
 
 
 /*main*/
+.product{
+    width: 940px;
+    min-height: 409px;
+
+    outline: 5px solid rgba(0, 255, 179, 0.63);
+    outline-offset: -5px;
+}
+
+
 
 .features h2,
 .contacts h2{
@@ -129,6 +157,29 @@ height: auto;
     list-style: none;
 }
 
+.manufacturers{
+    width: 940px;
+    min-height: 419px;
+
+    outline: 5px solid rgba(230, 11, 182, 0.3);
+    outline-offset: -5px;
+}
+
+.services{
+    width: 1200px;
+    min-height: 522px;
+
+    outline: 5px solid rgba(5, 209, 236, 0.787);
+    outline-offset: -5px;
+}
+
+.companya{
+    width: 940px;
+    min-height: 356px;
+
+    outline: 5px solid rgba(8, 72, 223, 0.87);
+    outline-offset: -5px;
+}
 
 /*main catalog*/
 .breadcrumbs-list,
@@ -139,6 +190,14 @@ height: auto;
     list-style: none;
 }
 
+.popular-goods{
+    width: 940px;
+    height: 427px;
+    outline: 5px solid rgba(152, 243, 6, 0.719);
+    outline-offset: -5px;
+}
+
+
 .page-title,
 .description{
     background-color:#F2F6F8;
@@ -146,7 +205,7 @@ height: auto;
 .page-title{
     font-size: 30px;
     line-height: 30px;
-    text-transform: uppercase;
+    text-transform: uppercase; 
 }
 
 .breadcrumbs{
@@ -154,6 +213,12 @@ height: auto;
     font-size: 13px;
     line-height: 18px;
     text-transform: uppercase;
+
+    width: 941px;
+    min-height: 1289;
+    outline: 5px solid rgba(109, 6, 243, 0.876);
+    outline-offset: -5px;
+
 }
 
 .price,
@@ -225,7 +290,12 @@ height: auto;
 
 
 
-
+.description{
+    width: 1200px;
+    min-height: 261px;
+    outline: 5px solid rgba(152, 243, 6, 0.719);
+    outline-offset: -5px;
+}
 
 .description h2{
     font-size: 30px;
@@ -243,6 +313,11 @@ height: auto;
 .main-footer{
     background-color:#32425C;
     color:#F1F5F7;
+
+    width: 1200px;
+    min-height: 300px;
+    outline: 5px solid rgba(211, 53, 5, 0.856);
+    outline-offset: -5px;
     
 }
 .contacts-footer a{
@@ -288,4 +363,13 @@ height: auto;
     color: #EE3643;
 }
 
+
+
+
+.modal, .maps{
+
+    outline: 5px solid rgba(222, 238, 5, 0.856);
+    outline-offset: -5px;
+
+}
 
