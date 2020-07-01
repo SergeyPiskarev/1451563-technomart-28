@@ -20,6 +20,15 @@ max-width: 100%;
 height: auto;
 }
 
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
+
 /*Grid*/
 .page{
     height: 100%;
@@ -34,8 +43,14 @@ height: auto;
 
 
 /*header*/
+.logo{
+    width: 220px;
+    height: 47px;
+}
 
 .main-header{
+    margin: 0 auto;
+    margin-bottom: 59px ;
     background-color: #F1F5F7;
     width: 1200px;
     min-height: 320px;
@@ -43,15 +58,45 @@ height: auto;
     outline: 5px solid rgba(0, 255, 0, 0.3);
     outline-offset: -5px;
 }
-.head{
+.head{    
     background-color:#293449;
+    height: 42px;
+    padding-left: 130px;
+    padding-right: 130px;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .head a,
 .nav a{
     color:#FFFFFF;
 }
+.search{
+    background-color:#293449;
+    color: #FFFFFF;
+    border: none;
+}
+.bookmarks{
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 75px;
+    height: 24px;
+}
+.cart{
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 75px;
+    height: 24px;
+    
+}
 /* кнопка оформит заказ*/
 .buy{
+    padding-top: 9px;
+    padding-left: 19px;
+    padding-right: 16px;
+    padding-bottom: 9px;
+    width: 115px;
+    height: 24px;    
     background-color:#63A63E;
 }
 .buy a:hover{
@@ -64,21 +109,83 @@ height: auto;
 
 }
 
+.contact{
+    display: flex;
+}
+
 .contacts-description{
+    padding-left: 160px;
+    width: 197px;
+    height: 71px;
+    font-size: 16px;
+    line-height: 23px;
     font-style: italic;
     color: #EE3643;
 }
 
 .contacts-phone{
+    width: 270px;
+    height: 45px;
+    margin-bottom: 3px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-left: 74px;
+    text-align: center;
     font-weight: bold;
     font-size: 21px;
     line-height: 30px;
     color: #EE3643;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+   
 }
 
 .contacts-adress{
+    width: 252px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 24px;
     color:#32425C;
+    
+    
 }
+.phone-adress{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+
+
+.contacts-enter{
+    width: 49px;
+    height: 21px;
+    padding-top: 12px;
+    padding-left: 45px;
+    padding-right: 27px;
+    padding-bottom: 12px;
+    font-size: 21px;
+    line-height: 21px;
+    background-color: #FFFFFF
+}
+.contacts-registration{ 
+    margin: 0;  
+    width: 102px;
+    height: 21px;
+    padding-top: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    font-size: 21px;
+    line-height: 21px;
+    background-color: #FFFFFF
+}
+   
+.contacts-btns{
+    margin: 0;
+    display: flex;
+}
+
 
 .contacts-btns,
 .menu,
@@ -114,7 +221,17 @@ height: auto;
 
 /*menu navigation*/
 .nav{
-    background: #32425C;   
+    background: #32425C;
+    width: 940px;
+    height: 60px;
+    margin-left: 130px; 
+}
+.menu{
+    padding-top: 16px;
+    padding-bottom: 20px;
+    padding-right: 47px;
+    display: flex;
+    justify-content: space-between;
 }
 .nav a:hover{
     background-color: #293449;
@@ -129,9 +246,42 @@ height: auto;
 .product{
     width: 940px;
     min-height: 409px;
+    margin: 0 auto;
+    margin-bottom: 59px;
+    padding: 0 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    color: #FFFFFF;
+
 
     outline: 5px solid rgba(0, 255, 179, 0.63);
     outline-offset: -5px;
+}
+ 
+.product h3{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+
+}
+.Materials{
+    background-color: #FFBF47;
+}
+.Tool{
+    background-color: #3BBCE3;
+}
+.Equipment{
+    background-color: #DC91D8;
+}
+.Discounts{
+    background-color: #8ED78F;
+}
+.Delivery{
+    background-color: #FFC047;
+}
+.hammer-drill{
+    background-image: url("../img/Слайдер.jpg");
 }
 
 
@@ -155,9 +305,15 @@ height: auto;
 }
 .manufacturers-pic{
     list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
 }
 
 .manufacturers{
+    margin: 0 auto;
+    margin-bottom: 70px;
+    display: grid;
     width: 940px;
     min-height: 419px;
 
@@ -166,14 +322,19 @@ height: auto;
 }
 
 .services{
+    margin: 0 auto;
+    margin-bottom: 70px;
     width: 1200px;
     min-height: 522px;
-
+    background-color: #F1F5F7;
+    
     outline: 5px solid rgba(5, 209, 236, 0.787);
     outline-offset: -5px;
 }
 
 .companya{
+    margin: 0 auto;
+    margin-bottom: 70px;
     width: 940px;
     min-height: 356px;
 
@@ -191,6 +352,8 @@ height: auto;
 }
 
 .popular-goods{
+    margin: 0 auto;
+    margin-bottom: 70px;
     width: 940px;
     height: 427px;
     outline: 5px solid rgba(152, 243, 6, 0.719);
@@ -240,6 +403,22 @@ height: auto;
     font-size: 13px;
     line-height: 18px;
 }
+
+.catalog-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+
+}
+
+
+.subtitle{
+    width: 940px;
+    height: 89px;
+    background-color: #f9f5f0;
+}
+
+
 
 .catalog-list p {
     font-family: 'PT Sans', Arial, sans-serif;
@@ -311,6 +490,7 @@ height: auto;
 /*footer*/
 
 .main-footer{
+    margin: 0 auto;
     background-color:#32425C;
     color:#F1F5F7;
 
@@ -323,7 +503,7 @@ height: auto;
 .contacts-footer a{
     color:#F1F5F7;
 }
-.contacts-adress{
+.contacts-adress-footer{
     color:#F1F5F7;
 }
 
